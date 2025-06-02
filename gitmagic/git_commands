@@ -1,0 +1,44 @@
+# add
+alias gap='git add -p'
+
+# branch
+alias gb='git branch'
+alias gbl='git branch --list'
+
+# commit
+alias gca='git commit --amend --no-edit'
+alias gcf='git commit --fixup '
+alias gcm='git commit -m '
+
+# diff
+alias gds='git diff --staged'
+alias gdu='git diff @{u}'
+
+# fetch
+alias gf='git fetch'
+
+# log
+alias glo='git log --oneline --graph -n 20'
+alias glos='git log --oneline -S '
+
+# push
+alias gplease='git push --force-with-lease origin HEAD'
+alias gpu='git push -u origin @'
+
+# rebase
+alias gra='git rebase --abort'
+alias grc='git rebase --continue'
+alias gri='git rebase -i --autosquash '
+
+# status / show
+alias gs='git status'
+alias gsh='git show '
+
+# stash
+alias gsapply='git stash apply'
+alias gslist='git stash list'
+alias gspop='git stash pop'
+alias gspush='git stash push'
+
+# misc
+git config --global alias.backup '!git branch --delete --force backup; git branch backup'
