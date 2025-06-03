@@ -3,6 +3,10 @@
 ## Description
 Just a collection of common stuff that might come in handy (or maybe not).
 
+## Content
+
+- [gitmagic](./gitmagic/README.md): Everything related to git...
+
 ## Disclaimer
 Everything in here is provided "**as is**" and **without any warranty**. \
 I don't guarantee anything in here will even work! \
